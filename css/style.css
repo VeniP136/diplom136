@@ -1,0 +1,173 @@
+.beige{
+background-color: white;
+     margin-left: 15%;
+  width: 70%;
+}
+.beige2{
+background-color: white;
+}
+.video{
+    overflow: hidden;
+}
+
+.bg-dack{
+  background: #D1D1D1; 
+} 
+
+body {margin:0;}
+.block:hover {
+  border-width: 1px;
+}
+.derachek2{
+    margin-left: -82px;
+}
+.durachek{
+    margin-left: 15px;
+    width: 98%;
+     z-index: 1;
+}
+.pravo{
+    position: absolute;
+    background-image: url(../img/prav.png);
+}
+.levo{
+    background-image: url(../img/lev.png);
+}
+.navbar {
+     border-width: 1px;
+     border-color: black;
+     border-style:solid;
+     z-index: 10;
+     overflow: hidden;
+     background-color:white;
+     position: fixed;
+     top: 0;
+     width: 100%;
+ 
+}
+.right{
+   background-image:   url(../img/prav.png);  
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.laga1:{
+    color: white;
+}
+
+.block{
+    border-width: 0px;
+    border-color: black;
+    border-style:solid;
+    width: 28%;
+    height: 300px;
+    margin-left: 2.3%; 
+    margin-right: 2.3%;
+    margin-top: 50px;
+    display: inline-block  
+        
+} }
+    @media (max-width: 900px) and (min-width: 631px) {.block{
+    border-width: 0px;
+    border-color: black;
+    border-style:solid;
+    width: 35%;
+    height: 300px;
+    margin-left: 10%; 
+    margin-right: 2.3%;
+    margin-top: 50px;
+    display: inline-block  
+} }
+    @media (max-width: 630px) {.block{
+    border-width: 0px;
+    border-color: black;
+    border-style:solid;
+    width: 60%;
+    height: 300px;
+    margin-left: 21.3%; 
+    margin-right: 2.3%;
+    margin-top: 50px;
+    display: inline-block  
+} }
+@media (max-width: 768px){
+    .guk{margin-right: 50%} }
+}
+@media (min-width: 769px){
+    .guk{margin-right: 50%};}
+}
+
+
+.block2{
+    width: 100%;
+    height: 0;
+    margin-left: 5%; 
+    margin-right: 2.3%;
+    margin-top: 200px;
+    display: inline-block  
+}
+.block2_1{
+    width: 40vw;
+    height: 40vw;
+    margin-left: 5%; 
+    margin-right: 2.3%;
+    margin-top: 20px;
+    display: inline-block ;  
+}
+    
+.block2_2{
+         margin-bottom: 5%;    
+    }
+.text1{
+    font-size: 32px;
+    font-family: Hand, cursive;
+}
+.text2{
+    font-size: 16px
+}
+.text3{
+    font-size: 23px;
+    font-family: Courier New, monospace;
+    text-align: center;
+}
+.img1{
+    padding: 10px; /* Поля вокруг текста */
+    border-style:solid;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.img2{
+    border-style:solid;
+    width: 100%;
+    height: 80%;
+    display: inline-block ; 
+}
+    a:hover {
+    color: black; text-decoration: none;
+   }
+  a {
+    color: black; text-decoration: none;
+   }
+ 
+a:visited {
+    color: black;
+   }
+
+
+
+
+
+ @media (max-width: 736px) { }
+ @media (min-width: 736px) { }
